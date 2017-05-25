@@ -1,0 +1,75 @@
+<!doctype html>
+    <html>
+        <head>
+            <style>
+                div:not(.desc) {width:45%; padding:0; border: 7px solid rgba(0,0,0,0); margin:calc((100% - (2 * 45%) - (4 * 7px))/4); float:left}
+                /*calc((100% - (2 * 45%) - (4 * 3px)) / 4) SAME as calc(50% - 45% / 2 - 3px) 
+                (100% - (Q * W) - (2 * Q * b)) / (2 * Q) = M
+                Q=Quantity
+                W=Width in %
+                b=border width in px
+                M=Margin width*/
+                div:hover:not(.desc) {border: 7px solid blue}
+                div img:not(.desc) {width:100%; height:700px}
+                .desc {padding:2px; text-align:center; height:95px; background-color:rgba(255,255,255,.8)}
+                p {color:blue; font-size:1.5em}
+                body {background-color:black}
+                h1 {color:lime; text-align:center; font-size:6em; margin:0; padding:0}
+            </style>
+        </head>
+        <body>
+            <h1>
+                Gallery
+            </h1>
+            <div>
+                <a href="Zekrom_audie-gryph.jpg" target="_blank">
+                    <img src="Zekrom_audie-gryph.jpg" alt="Zekrom" width="600px" height="400px"/>
+                </a>
+            <div class="desc">
+                <p>
+                    This is Zekrom, He is an Electric Dragon Pok&eacute;mon.
+                </p>
+            </div>
+        </div>
+        <div>
+            <a href="black_kyurem.jpg" target="_blank">
+                <img src="black_kyurem.jpg" alt="Black Kyurem" width="600" height="400"/>
+            </a>
+            <div class="desc">
+                <p>
+                    This is Black Kyurem, He is an Ice Dragon Pok&eacute;mon.  He is the fusion of Zekrom and Kyurem.
+                </p>
+            </div>
+        </div>
+        <div>
+            <a href="Zek&Pelkia.jpg" target="_blank">
+                <img src="Zek&Pelkia.jpg" alt="Zekrom and Pelkia" width="600" height="400"/>
+            </a>
+            <div class="desc">
+                <p>
+                    The pink Pok&eacute;mon is Pelkia.  He is a Water Dragon type and can control space.
+                </p>
+            </div>
+        </div>
+        <div>
+            <a href="Zekrom_Delano.png" target="_blank">
+                <img src="Zekrom_Delano.png" alt="Zekrom" width="600" height="400"/>
+            </a>
+            <div class="desc">
+                <p>
+                    This is another image of the dragon, Zekrom.  He is my favorite Pok&eacute;mon because of his amazing desingn!
+                </p>
+            </div>
+        </div>
+        <div style="background-color:rgba(255,255,255,.4)">
+            <a href="giratina_xous.png" target="_blank">
+                <img src="giratina_xous.png" alt="Giratina" width="600" height="400"/>
+            </a>
+            <div class="desc">
+                <p>
+                    This is Giratina he is a Ghost Dragon type Pok&eacute;mon.  And can travle between dimentions.  
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
